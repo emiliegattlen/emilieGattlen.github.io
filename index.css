@@ -1,0 +1,22 @@
+.qomolangma {
+    background-image: url('images/accueil_nils-leonhardt-qomolangma-unsplash.jpg');
+    color:aliceblue;
+    font-family: bakso;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    vertical-align: middle;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+  @font-face {
+    font-family: bakso;
+    src: url(fonts/BaksoSapi.otf);
+}
+
+  .galerie{
+    width: 55%;
+    padding: 5px;
+  }
