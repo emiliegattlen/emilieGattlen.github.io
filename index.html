@@ -31,11 +31,15 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Plus d'infos
+                            Ressources
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+                                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+                              </svg>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="galerie.html">Galerie</a></li>
-                            <li><a class="dropdown-item" href="video.html">Liens</a></li>
+                            <li><a class="dropdown-item" href="#">Galerie</a></li>
+                            <li><a class="dropdown-item" href="#">Liens</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -51,10 +55,12 @@
             <div class="col-md qomolangma">
                 <!--La classe "col" permet d'afficher des blocs de contenu côte à côte. J'ai rajouté "-md" à la valeur "col" pour que l'affichage change lorsque le contenu est affiché sur un écran plus petit que 768 px : les "colonnes" s'affichent l'une en dessous de l'autre (stacked). Aucun chiffre n'étant spécifié, toutes les colonnes de cette ligne occuperont le même espace lorsqu'elles sont côte à côte.-->
                 <h1>Le chat de Pallas</h1>
-                <p>Un poil long et épais, des oreilles arrondies et un regard particulièrement intense : le chat manul fait l’effet d’une peluche, mais que l'on ne s'y trompe pas, il s'agit bien d'un animal sauvage, réputé indomptable. Ces félins vivent dans les steppes et les régions montagneuses d’Asie centrale. Ils occupent des déserts rocheux et des régions semi-désertiques qui s’étendent entre l’Afghanistan et la Mongolie, où on les rencontre jusqu’à 4 000 m d’altitude.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec consequat purus, ac pellentesque
+                    nisi. Nam et diam aliquam, imperdiet leo nec, venenatis diam. Etiam placerat, dui fermentum
+                    tincidunt pharetra, diam orci venenatis leo, non bibendum sapien felis et purus. Vestibulum magna
+                    magna, imperdiet id posuere sit amet, pellentesque a lacus.</p>
             </div>
-            <div class="col-md py-md-5">
-                <!--La classe py-md-5 ajoute un padding (p) de 3 (5) en haut et en bas (y), pour autant que l'affichage soit de 768px ou plus grand(md).-->
+            <div class="col-md">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -66,14 +72,16 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/carousel_oleksandr-sushko-65v_L2hLNA8-unsplash.jpg" class="d-block w-100" alt="Chat de pallas grmbl">
+                            <img src="images/carousel_johannes-heel-Jh0xMZLWcr4-unsplash.jpg" class="d-block w-100"
+                                alt="Chat de pallas grmbl">
                         </div>
                         <div class="carousel-item">
                             <img src="images/carousel_jevgeni-fil-iYAhwFaWF04-unsplash.jpg" class="d-block w-100"
                                 alt="Chat de pallas dans un arbre">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/carousel_viktor-vasicsek-dE0jpWosnio-unsplash.jpg" class="d-block w-100" alt="Petit chat de pallas">
+                            <img src="images/carousel_viktor-vasicsek-dE0jpWosnio-unsplash.jpg" class="d-block w-100"
+                                alt="Petit chat de pallas">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -89,31 +97,52 @@
                 </div>
             </div>
             <div class="col-md">
-                <figure>
-                    <blockquote class="blockquote">
-                        <p>Si l’on pouvait croiser l’homme et le chat, ça améliorerait l’homme, mais ça dégraderait le chat.</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        Mark Twain
-                    </figcaption>
-                </figure>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/580px-Manoel.jpeg" class="card-img-top" alt="Chat de pallas">
+                    <div class="card-body">
+                        <p class="card-text">Nunc luctus leo nec quam pharetra euismod. Curabitur non eros eu nunc
+                            lacinia viverra. Suspendisse fermentum pulvinar metus, non feugiat sem sodales ornare.
+                            Vestibulum quis leo eu velit interdum condimentum Otocolobus.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="container text-center">
         <div class="row align-item-start">
-            <div class="col-sm-4">
-                <!--J'ai ajouté la valeur "sm" pour que les colonnes s'affichent l'une en dessous de l'autre sur des écrans plus petits que 576px. Le chiffre 4 indique que la colonne occupera la largeur de 4 colonnes sur 12. Ci-dessous, la colonne s'affichera sur 8 colonnes sur 12.-->
-                <div class="card" style="width: 18rem;">
-                    <img src="images/580px-Manoel.jpeg" class="card-img-top" alt="Chat de pallas">
-                    <div class="card-body">
-                        <p class="card-text">Le Manul (Otocolobus manul) ou Chat de Pallas est un félin de la
-                            sous-famille des félinés. C'est la seule espèce du genre Otocolobus.</p>
-                    </div>
-                </div>
+            <div class="col-sm-4 py-md-5">
+                <!--J'ai ajouté la valeur "sm" pour que les colonnes s'affichent l'une en dessous de l'autre sur des écrans plus petits que 576px. Le chiffre 4 indique que la colonne occupera la largeur de 4 colonnes sur 12. Ci-dessous, la deuxième colonne de cette ligne s'affichera sur 8 colonnes sur 12.-->
+                <!--La classe py-md-5 ajoute un padding (p) de 3 (5) en haut et en bas (y), pour autant que l'affichage soit de 768px ou plus grand(md).-->
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Aenean ante arcu, tristique sit amet cursus volutpat, gravida ac nibh. </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Un Romain, probablement
+                    </figcaption>
+                </figure>
             </div>
-            <div class="col-sm-8">
-                Column
+            <div class="col-sm-8 pt-md-5">
+                <h1>Autres félins méconnus</h1>
+                <p id="intru">Trouvez l'intru
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                        <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+                        <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+                      </svg>
+                </p>
+                <p>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary"><a
+                            href="https://fr.wikipedia.org/wiki/Ocelot#:~:text=L'Ocelot%20(Leopardus%20pardalis%20ou,Grande%20au%20sud%20du%20Texas.">L'ocelot</a>
+                    </li>
+                    <li class="list-group-item list-group-item-secondary"><a
+                            href="https://fr.wikipedia.org/wiki/Panth%C3%A8re_des_neiges">L'once</a></li>
+                    <li class="list-group-item list-group-item-success"><a
+                            href="https://fr.wikipedia.org/wiki/Serval">Le serval</a></li>
+                    <li class="list-group-item list-group-item-danger"><a
+                            href="https://fr.wiktionary.org/wiki/chat-huant">Le chat huant</a></li>
+                </ul>
+                </p>
             </div>
         </div>
     </div>
