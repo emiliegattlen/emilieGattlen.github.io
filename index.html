@@ -32,10 +32,12 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Ressources
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
-                                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                                <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
-                              </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-images" viewBox="0 0 16 16">
+                                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                <path
+                                    d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
+                            </svg>
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Galerie</a></li>
@@ -54,7 +56,7 @@
         <div class="row align-item-start">
             <div class="col-md qomolangma">
                 <!--La classe "col" permet d'afficher des blocs de contenu côte à côte. J'ai rajouté "-md" à la valeur "col" pour que l'affichage change lorsque le contenu est affiché sur un écran plus petit que 768 px : les "colonnes" s'affichent l'une en dessous de l'autre (stacked). Aucun chiffre n'étant spécifié, toutes les colonnes de cette ligne occuperont le même espace lorsqu'elles sont côte à côte.-->
-                <h1>Le chat de Pallas</h1>
+                <h1>Otocolobus manul</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec consequat purus, ac pellentesque
                     nisi. Nam et diam aliquam, imperdiet leo nec, venenatis diam. Etiam placerat, dui fermentum
                     tincidunt pharetra, diam orci venenatis leo, non bibendum sapien felis et purus. Vestibulum magna
@@ -102,7 +104,9 @@
                     <div class="card-body">
                         <p class="card-text">Nunc luctus leo nec quam pharetra euismod. Curabitur non eros eu nunc
                             lacinia viverra. Suspendisse fermentum pulvinar metus, non feugiat sem sodales ornare.
-                            Vestibulum quis leo eu velit interdum condimentum Otocolobus.</p>
+                            Vestibulum quis leo eu velit interdum condimentum Otocolobus. 
+                            <div class="italic">Image tirée de <a href="https://fr.wikipedia.org/wiki/Manul">Wikipedia</a></div>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -113,22 +117,29 @@
             <div class="col-sm-4 py-md-5">
                 <!--J'ai ajouté la valeur "sm" pour que les colonnes s'affichent l'une en dessous de l'autre sur des écrans plus petits que 576px. Le chiffre 4 indique que la colonne occupera la largeur de 4 colonnes sur 12. Ci-dessous, la deuxième colonne de cette ligne s'affichera sur 8 colonnes sur 12.-->
                 <!--La classe py-md-5 ajoute un padding (p) de 3 (5) en haut et en bas (y), pour autant que l'affichage soit de 768px ou plus grand(md).-->
-                <figure>
-                    <blockquote class="blockquote">
-                        <p>Aenean ante arcu, tristique sit amet cursus volutpat, gravida ac nibh. </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        Un Romain, probablement
-                    </figcaption>
-                </figure>
+                <div class="card">
+                    <div class="card-body">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Aenean ante arcu, tristique sit amet cursus volutpat, gravida ac nibh. </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Un Romain, probablement
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-8 pt-md-5">
                 <h1>Autres félins méconnus</h1>
-                <p id="intru">Trouvez l'intru
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
-                        <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
-                        <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
-                      </svg>
+                <p class="italic">Trouvez l'intru
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                        <path
+                            d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+                        <path
+                            d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z" />
+                    </svg>
                 </p>
                 <p>
                 <ul class="list-group">
